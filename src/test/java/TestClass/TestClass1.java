@@ -35,8 +35,8 @@ public class TestClass1 {
 	Homepagefpkt hp;
 	MyProfilePagefpkt pp;
 
-	ExtentReports reports;
-	ExtentTest test;
+	ExtentReports reports; // global variables of Extent reports
+	ExtentTest test; // global variables of Extent Test
 
 	@Parameters("web")
 	@BeforeClass
@@ -147,7 +147,7 @@ public class TestClass1 {
 
 	public void afterMethod(ITestResult result) throws IOException
 	{
-		if(result.getStatus() == ITestResult.FAILURE)
+		if(result.getStatus() == ITestResult.FAILURE) // if test status failed screenshot will get capture
 		{
 			test.log(LogStatus.FAIL, test.addScreenCapture(pp.screencpature(driver)), "Taken Screenshot");
 		}
@@ -161,5 +161,6 @@ public class TestClass1 {
 		
 		
 	}
+	
 
 }
