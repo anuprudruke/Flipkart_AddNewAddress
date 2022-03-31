@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-29T13:32:39 IST" name="Suite" finished-at="2022-03-29T13:33:25 IST" duration-ms="45725">
+    <groups>
+    </groups>
+    <test started-at="2022-03-29T13:32:39 IST" name="Test" finished-at="2022-03-29T13:33:25 IST" duration-ms="45725">
+      <class name="TestClass.TestClass1">
+        <test-method is-config="true" signature="chromedriver(java.lang.String)[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:32:40 IST" name="chromedriver" finished-at="2022-03-29T13:33:00 IST" duration-ms="20224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromedriver -->
+        <test-method is-config="true" signature="methods()[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:00 IST" name="methods" finished-at="2022-03-29T13:33:00 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methods -->
+        <test-method signature="logintofpkt()[pri:1, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:00 IST" name="logintofpkt" finished-at="2022-03-29T13:33:07 IST" duration-ms="6834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintofpkt -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:07 IST" name="afterMethod" finished-at="2022-03-29T13:33:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintofpkt status=SUCCESS method=TestClass1.logintofpkt()[pri:1, instance:TestClass.TestClass1@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="methods()[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:07 IST" name="methods" finished-at="2022-03-29T13:33:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methods -->
+        <test-method signature="Myprofilepagefpkt(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:07 IST" name="Myprofilepagefpkt" data-provider="dataset" finished-at="2022-03-29T13:33:18 IST" duration-ms="11555" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anup]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8600244579]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[415512]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pusesavli]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myprofilepagefpkt -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:18 IST" name="afterMethod" finished-at="2022-03-29T13:33:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Myprofilepagefpkt status=SUCCESS method=TestClass1.Myprofilepagefpkt(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestClass.TestClass1@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="methods()[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:18 IST" name="methods" finished-at="2022-03-29T13:33:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methods -->
+        <test-method signature="Myprofilepagefpkt(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:18 IST" name="Myprofilepagefpkt" data-provider="dataset" finished-at="2022-03-29T13:33:24 IST" duration-ms="5678" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Arun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8830089636]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[415001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Satara]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Myprofilepagefpkt -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:24 IST" name="afterMethod" finished-at="2022-03-29T13:33:24 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Myprofilepagefpkt status=SUCCESS method=TestClass1.Myprofilepagefpkt(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestClass.TestClass1@4efbca5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestClass.TestClass1@4efbca5a]" started-at="2022-03-29T13:33:24 IST" name="afterclass" finished-at="2022-03-29T13:33:25 IST" duration-ms="1260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestClass.TestClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
