@@ -46,7 +46,12 @@ public class TestClass1 {
 		reports = new ExtentReports("ExtenetReports.html", true);
 		test = reports.startTest("TestClass1"); // Pass class name as parameter
 		driver = BaseClass1.Flipkart(a);
+		
+		
 
+		     
+		
+		
 	}
 
 	@BeforeMethod
